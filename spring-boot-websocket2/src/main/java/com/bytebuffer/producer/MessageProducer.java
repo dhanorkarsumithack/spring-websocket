@@ -25,6 +25,6 @@ public class MessageProducer {
             jsonMessage.put("messageType", "sample");
             jsonMessage.put("data", "Sample JSON Data 1");
             jsonMessage.put("randomNumber", random.nextInt(100));
-            simpMessagingTemplate.convertAndSend("/topic/prime", jsonMessage);
+            simpMessagingTemplate.convertAndSend("/topic", jsonMessage);
     }
 }

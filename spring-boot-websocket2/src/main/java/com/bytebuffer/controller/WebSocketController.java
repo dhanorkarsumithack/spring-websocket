@@ -11,6 +11,7 @@ public class WebSocketController {
     @MessageMapping("/send-message")
     @SendTo("/topic/prime")
     public Message sendMessage(Message message) {
+        System.out.println("send message "+message);
         return message;
     }
 
@@ -18,6 +19,7 @@ public class WebSocketController {
     @SendTo("/topic/prime")
     public Message receiveMessge(){
 
+        System.out.println("receive message");
 
         return Message.builder()
                 .messageType("casual")

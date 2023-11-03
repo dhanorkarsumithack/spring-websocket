@@ -7,13 +7,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-websocket2" />
+        <module name="spring-boot-ws3" />
+        <module name="spring-boot-websockets-api" />
+        <module name="webchat" />
         <module name="chat-app" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="websocket-1" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="chat-app" options="-parameters" />
+      <module name="spring-boot-websocket2" options="-parameters" />
+      <module name="spring-boot-websockets-api" options="-parameters" />
+      <module name="spring-boot-ws3" options="-parameters" />
+      <module name="webchat" options="-parameters" />
+      <module name="websocket-1" options="-parameters" />
     </option>
   </component>
 </project>

@@ -5,7 +5,17 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/chat-app/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-websocket2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-ws3/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-ws4/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-angular-websockets/spring-boot-websockets-api/pom.xml" />
+        <option value="$PROJECT_DIR$/webchat/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/spring-boot-ws4/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="openjdk-17 (2)" project-jdk-type="JavaSDK">

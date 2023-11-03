@@ -2,6 +2,8 @@ package com.websocket.chat;
 
 import lombok.*;
 
+import java.net.Proxy;
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -14,4 +16,6 @@ public class ChatMessage {
     private String sender;
 
     private  MessageType type;
+
+
 }
